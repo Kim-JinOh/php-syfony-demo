@@ -16,5 +16,12 @@
   "postAttachCommand": {
     "server": "symfony server:start",
     "yarn": ["yarn", "watch"]
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"nadim-vscode.symfony-code-snippets"
+		]
+	}
+}
 }
